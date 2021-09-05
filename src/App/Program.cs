@@ -1,1 +1,3 @@
-System.Console.WriteLine("Hello World!");
+﻿using Domain;
+var you = new Person();
+you.SayHello();
